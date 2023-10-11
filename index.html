@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Claus G. Smitt</title>
+
+    <meta name="author" content="Claus Smitt">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/tree.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Claus G. Smitt
+                </p>
+                <p>I am a very passionate robotics engineer/researcher, standing right at the intersection of 3D computer vision and machine learning, pushing the boundaries of robotic perception.
+                </p>
+                <p>
+                  I'm currently finishing my Ph.D. at the <a href="https://www.uni-bonn.de/en">University of Bonn</a>, working at the <a href="http://agrobotics.uni-bonn.de/">AgRobotics Lab</a>, focusing on 3D neural scene understanding to automate agricultural tasks.
+                </p>
+                <p>
+                  Earlier I worked developing Visual SLAM algorithms at <a href="https://www.irobot.com/">iRobot</a> for vacuum robots and at <a href="https://www.argentina.gob.ar/cnea">CNEA</a> for inspection quadrotors.
+                  I received my Electrical Engineering Degree from <a href="https://unr.edu.ar/">Universidad Nacional de Rosario</a> and my Master’s from <a href="https://www.ib.edu.ar/">Instituto Balseiro</a>, both in Argentina.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:claus.smitt@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="assets/data/clausSmitt_cv.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=NZuWVDgAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/claussmitt/en">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/lvisroot">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="assets/images/avatar.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="assets/images/avatar-round.png" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  Below are my most relevant papers. find a complete list in my <a href="assets/data/clausSmitt_cv.pdf">CV</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+    
+      <tr onmouseout="pagnerf_stop()" onmouseover="pagnerf_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='pagnerf_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="assets/videos/pagnerf.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='assets/images/pagnerf.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function pagnerf_start() {
+              document.getElementById('pagnerf_image').style.opacity = "1";
+            }
+
+            function pagnerf_stop() {
+              document.getElementById('pagnerf_image').style.opacity = "0";
+            }
+            pagnerf_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="http://lvisroot.github.io/pagnerf">
+            <span class="papertitle">PAg-NeRF: Towards fast and efficient end-to-end panoptic 3D representations for agricultural robotics</span>
+          </a>
+          <br>
+          <strong>Claus Smitt</strong>,
+          <a href="http://agrobotics.uni-bonn.de/michael-halstead/">Michael Halstead</a>,
+          <a href="http://agrobotics.uni-bonn.de/patrick-zimmer/">Patrick Zimmer</a>,
+          <a href="https://www.ipb.uni-bonn.de/people/thomas-laebe/">Thomas Läbe</a>,
+          <a href="http://agrobotics.uni-bonn.de/esra-guclu/">Esra Guclu</a>,
+          <a href="https://www.ipb.uni-bonn.de/people/cyrill-stachniss/">Cyrill Stachniss</a>,
+          <a href="https://sites.google.com/site/christophersmccool/">Chris McCool</a>
+          <br>
+          <em>Under review</em>, 2023 &nbsp
+          <br>
+          <a href="https://lvisroot.github.io/pagnerf">project page</a>
+          /
+          <a href="https://arxiv.org/abs/2309.05339">arXiv</a>
+          /
+          code & data (coming soon)
+          <p></p>
+          <p>
+            PAg-NeRF is a fast and efficient 3D panoptic representation suitable for challenging agricultural scenarios.
+          </p>
+        </td>
+      </tr>
+      
+      <tr onmouseout="reprojrnn_stop()" onmouseover="reprojrnn_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='reprojrnn_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="assets/videos/square_statte_bup20.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='assets/images/reprojrnn-pipeline.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function reprojrnn_start() {
+              document.getElementById('reprojrnn_image').style.opacity = "1";
+            }
+
+            function reprojrnn_stop() {
+              document.getElementById('reprojrnn_image').style.opacity = "0";
+            }
+            reprojrnn_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://github.com/Agricultural-Robotics-Bonn/reproj_rnn">
+            <span class="papertitle">Explicitly incorporating spatial information to recurrent networks for agriculture</span>
+          </a>
+          <br>
+          <strong>Claus Smitt</strong>,
+          <a href="http://agrobotics.uni-bonn.de/michael-halstead/">Michael Halstead</a>,
+          <a href="http://agrobotics.uni-bonn.de/alireza-ahmadi/">Alireza Ahmadi</a>,
+          <a href="https://sites.google.com/site/christophersmccool/">Chris McCool</a>
+          <br>
+          <em>IROS</em>, 2022 &nbsp <font color="red"><strong>(Best AgRobotics Paper Award 🏅)</strong></font>
+          <br>
+          <a href="https://github.com/Agricultural-Robotics-Bonn/reproj_rnn">code</a>
+          /
+          <a href="http://agrobotics.uni-bonn.de/data/">data</a>
+          /
+          <a href="https://arxiv.org/abs/2206.13406">arXiv</a>
+          <p></p>
+          <p>
+            We leverages spatial-temporal cues available in most agricultural robots to improve crop monitoring tasks.
+          </p>
+        </td>
+      </tr>
+
+      <tr onmouseout="pathobot_stop()" onmouseover="pathobot_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='pathobot_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="assets/videos/pathobot.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='assets/images/pathobot.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function pathobot_start() {
+              document.getElementById('pathobot_image').style.opacity = "1";
+            }
+
+            function pathobot_stop() {
+              document.getElementById('pathobot_image').style.opacity = "0";
+            }
+            pathobot_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://dreambooth3d.github.io/">
+            <span class="papertitle">PATHoBot: A Robot for Glasshouse Crop Phenotyping and Intervention</span>
+          </a>
+          <br>
+          
+          <strong>Claus Smitt</strong>,
+          <a href="http://agrobotics.uni-bonn.de/michael-halstead/">Michael Halstead</a>,
+          <a href="https://www.hrl.uni-bonn.de/Members/tzaenker/tobias-zaenker">Tobias Zänker</a>,
+          <a href="https://www.hrl.uni-bonn.de/Members/maren">Maren Bennewitz</a>
+          <a href="https://sites.google.com/site/christophersmccool/">Chris McCool</a>
+          <br>
+          <em>ICRA</em>, 2021
+          <br>
+          <a href="http://agrobotics.uni-bonn.de/data/">data</a> /
+          <a href="https://www.youtube.com/watch?v=Q94Ihk3cFQY&ab_channel=AgRobotics-Bonn">video</a> / 
+          <a href="https://arxiv.org/abs/2010.16272">arXiv</a>
+          <p></p>
+          <p> PATHoBot is an autonomous crop surveying and intervention robot for glasshouse environments that can gather high quality data and estimate key phenotypic parameters.</p>
+        </td>
+      </tr>
+
+      </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p id="last_update_date"></p>
+
+                <p style="text-align:right;font-size:small;">
+                  If this website looks familiar is thanks to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>'s neat template.
+                  <br>
+                  Last updated on
+                  <script type="text/javascript">
+                    var lastMod = Date.parse(document.lastModified);
+                    var now = new Date();
+                    var diff = (new Date(now.toLocaleString())).getTimezoneOffset() - now.getTimezoneOffset();
+                    if (!diff) diff = now.getTimezoneOffset() * 60000;
+                    else diff = 0;
+                    document.write(now.toLocaleString('default', { month: 'long', year: 'numeric'}))
+                    document.getElementById("last_update_date") = "Hello world!";
+                  </script>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

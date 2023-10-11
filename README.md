@@ -1,2 +1,1 @@
-# LvisRoot.github.io
-Claus Smitt's Personal website
+This is the source code to Claus Smitt's public academic website: https://lvisroot.github.io/. Feel free to clone this code for your own personal use.
